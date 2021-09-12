@@ -1,0 +1,47 @@
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: url('../../image/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contactLayer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(254, 247, 220, .7);
+  padding: 200px 0px;
+  color: rgb(139, 130, 107);
+}
+
+.contactContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactContainer ul {
+  list-style-type: none;
+}
+
+.contactContainer h2 {
+  font-size: 2.75em;
+  line-height: 300%;
+  color: rgb(254, 247, 220);
+  text-shadow: 1px 1px 3px rgb(161, 152, 130),
+    -1px -1px 3px rgb(161, 152, 130);
+}
+
+.contactContainer ul li {
+  line-height: 200%;
+}
+
+@media screen and (max-width : 400px) {
+  .contactContainer h2 {
+    font-size: 2em;
+  }
+}

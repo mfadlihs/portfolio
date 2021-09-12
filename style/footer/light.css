@@ -1,0 +1,38 @@
+footer {
+  background-color: rgb(161, 152, 130);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer>div {
+  padding: 30px 40px;
+  color: rgb(254, 247, 220);
+}
+
+
+.logo ul {
+  display: flex;
+  list-style: none;
+}
+
+.logo ul li {
+  font-size: 25px;
+  padding: 0px 10px;
+  color: rgb(254, 247, 220);
+}
+
+@media screen and (max-width : 768px) {
+  footer {
+    display: block;
+    text-align: center;
+  }
+
+  footer div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .logo ul {
+    justify-content: center;
+  }
+}
