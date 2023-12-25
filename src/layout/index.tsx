@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
-      <LeftContainer className="px-32 flex flex-col justify-around">
+      <LeftContainer className="px-32 flex flex-col justify-around text-text">
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-medium">
             Muhammad <span className="font-bold">Fadli</span> Hasan
