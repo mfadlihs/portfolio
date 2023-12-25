@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "timestamp": "Aug 2022 - Feb 2023",
+    "title": "Software Engineer Intern",
+    "company": "DELOS",
+    "linkCompany": "https://delosaqua.com/",
+    "description": "Attained a track record of consistently achieving perfect story points in every sprint week while serving as a Software Engineer Intern Frontend Web Developer. Demonstrated a keen understanding of agile methodologies to enhance project efficiency and delivery of building AquaHero Dashboard",
+    "skills": ["JavaScript", "TypeScript", "Next.js", "Redux.js"],
+    "projects": [
+      { "title": "Scylla", "link": "https://scylla.delosaqua.com/" },
+      { "title": "AquaHero", "link": "https://app.delosaqua.com/signin/" }
+    ],
+    "logo": "/icons/delos.png"
+  },
+  {
+    "id": 2,
+    "timestamp": "Sep - Nov 2023",
+    "title": "Mobile Developer",
+    "company": "MyECO",
+    "linkCompany": "https://www.linkedin.com/company/myeco-indonesia/",
+    "description": "With a strong sense of responsibility, I spearheaded the development of the iOS version of the MyEco application using Flutter and Firebase. I contributed over 10,000 lines of code and successfully delivered the project within a demanding three-month deadline.",
+    "skills": ["Dart", "Flutter", "Firebase"],
+    "projects": [],
+    "logo": "/icons/myeco.png"
+  }
+]
