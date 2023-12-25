@@ -8,8 +8,12 @@ export default function Document() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Landingpage for Website. Website for gaining information what you need"
+          content="Fadli Hasan is a software engineer who builds accessible, inclusive product and digital experiences for web & mobile."
           key="description"
+        />
+        <meta
+          name="keywords"
+          content="Fadli Hasan, M Fadli Hasan, Muhammad Fadli Hasan, Fadli, Hasan, M Fadli H,"
         />
       </Head>
       <body className="bg-primary overflow-x-hidden relative min-h-[200vh]">
