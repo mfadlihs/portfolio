@@ -8,7 +8,12 @@ import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable: function () {
+        var maxWidth = 640;
+        return window.innerWidth < maxWidth;
+      },
+    });
   }, []);
 
   return (
@@ -25,6 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="keywords"
           content="Fadli Hasan, M Fadli Hasan, Muhammad Fadli Hasan, Fadli, Hasan, M Fadli H,"
         />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
       <GlowCursor />
