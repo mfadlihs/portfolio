@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { ItemContainer } from "./styles";
 
 interface ItemSectionProps {
@@ -8,9 +9,9 @@ interface ItemSectionProps {
 export default function ItemSection({ text, active }: ItemSectionProps) {
   return (
     <ItemContainer
-      className={`${active && "text-text"} flex ${
-        active ? "text-base font-medium" : "text-sm"
-      }`}
+      className={`${
+        active ? "text-text md:text-base md:font-medium" : "md:text-sm"
+      } flex text-xl font-medium`}
     >
       <div
         className={`${

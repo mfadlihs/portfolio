@@ -33,10 +33,10 @@ export default function ExperienceCard({
       <CardContainer
         className={`${
           active == 2 && "opacity-50"
-        } px-6 py-5 rounded-xl hover:bg-[#5ECED410] cursor-pointer hover:text-text"`}
+        } px-4 md:px-6 py-4 md:py-5 rounded-xl hover:bg-[#5ECED410] cursor-pointer hover:text-text"`}
       >
         <img src={data.logo} className="h-7 w-32 object-cover mb-2" />
-        <div className="flex gap-8">
+        <div className="flex gap-x-8 gap-y-2 flex-col md:flex-row">
           <div className="text-sm basis-[25%]">{data.timestamp}</div>
           <div className="basis-[75%]">
             <div className="flex gap-2 items-end text-text title font-bold mb-2">
