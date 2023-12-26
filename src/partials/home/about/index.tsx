@@ -2,7 +2,7 @@ import { AboutContainer } from "./styles";
 
 export default function HomeAbout() {
   return (
-    <AboutContainer data-aos="fade-up" className="mb-20">
+    <AboutContainer id="about" data-aos="fade-up" className="mb-20">
       <div>
         Hey, I'm your go-to{" "}
         <span className="highlight">Front-End Web Developer</span> with a

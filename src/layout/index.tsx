@@ -16,6 +16,41 @@ export default function Layout({ children }: { children: ReactNode }) {
     }
   };
 
+  const sections = ["about", "experience", "projects"];
+
+  const [currentSection, setCurrentSection] = useState<string>("about");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+
+      // Menentukan di mana pengguna berada berdasarkan posisi scroll
+      let section = currentSection;
+      sections.forEach((sectionId) => {
+        const sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+          const offsetTop = sectionElement.offsetTop;
+          const offsetBottom = offsetTop + sectionElement.offsetHeight;
+
+          if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
+            section = sectionId;
+          }
+        }
+      });
+
+      // Memperbarui state dengan bagian yang sedang dilihat
+      setCurrentSection(section);
+    };
+
+    // Menambahkan event listener untuk scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Membersihkan event listener saat komponen di-unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [sections]);
+
   useEffect(() => {
     window.addEventListener("resize", handleResize);
 
@@ -23,6 +58,10 @@ export default function Layout({ children }: { children: ReactNode }) {
       window.removeEventListener("resize", handleResize);
     };
   });
+
+  useEffect(() => {
+    console.log(currentSection);
+  }, [currentSection]);
 
   return (
     <>
@@ -40,9 +79,21 @@ export default function Layout({ children }: { children: ReactNode }) {
           </div>
         </div>
         <div className="text-text2 flex flex-col gap-3">
-          <ItemSection text="ABOUT" active />
-          <ItemSection text="EXPERIENCES" active={false} />
-          <ItemSection text="PROJECTS" active={false} />
+          <ItemSection
+            id="about"
+            text="ABOUT"
+            active={currentSection == "about"}
+          />
+          <ItemSection
+            text="EXPERIENCES"
+            id="experience"
+            active={currentSection == "experience"}
+          />
+          <ItemSection
+            text="PROJECTS"
+            id="projects"
+            active={currentSection == "projects"}
+          />
         </div>
         <div className="flex gap-5 md:justify-start justify-center">
           {sosmed.map((e) => (

@@ -11,7 +11,7 @@ export default function Projects() {
   }, [id]);
 
   return (
-    <div className="-mx-3 md:-mx-8 mb-20 flex flex-col gap-y-3">
+    <div id="projects" className="-mx-3 md:-mx-8 mb-20 flex flex-col gap-y-3">
       {data.map((e) => (
         <ProjectCard
           active={!active ? 0 : active && id == e.id ? 1 : 2}

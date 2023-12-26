@@ -12,7 +12,7 @@ export default function Experience() {
   }, [id]);
 
   return (
-    <div>
+    <div id="experience">
       <div className="-mx-3 md:-mx-8 flex flex-col gap-y-3">
         {data.map((e) => (
           <ExperienceCard

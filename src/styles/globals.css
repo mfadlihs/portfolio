@@ -5,6 +5,7 @@
 @tailwind utilities;
 html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @layer base {
