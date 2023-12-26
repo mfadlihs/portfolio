@@ -36,6 +36,7 @@ export default function ProjectCard({
         className={`${
           active == 2 && "opacity-50"
         } px-4 md:px-6 py-4 md:py-5 rounded-xl hover:bg-[#5ECED410] cursor-pointer hover:text-text"`}
+        data-aos={"fade-left"}
       >
         <div className="flex gap-x-8 gap-y-2 flex-col md:flex-row">
           <div className="basis-[25%]">
