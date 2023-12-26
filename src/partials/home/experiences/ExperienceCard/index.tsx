@@ -60,7 +60,7 @@ export default function ExperienceCard({
                 </div>
               ))}
             </div>
-            <div className="flex flex-wrap mb-3 gap-x-[6px] gap-y-1 items-center">
+            <div className="flex flex-wrap gap-x-[6px] gap-y-1 items-center">
               {data.skills.map((e) => (
                 <div
                   key={e}

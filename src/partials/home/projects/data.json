@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "timestamp": "Sep - Nov 2023",
+    "title": "BEMAVERT",
+    "description": "BEMAVERT (Benthic Macroinvertebrate Tracker) is the latest innovation to make it easier to analyze  pollution levels using the macrobenthos",
+    "thumbnail": "/images/bemavert.png",
+    "skills": [
+      "Dart",
+      "PHP",
+      "Flutter",
+      "Laravel",
+      "Firebase",
+      "MySQL",
+      "Docker",
+      "GCP"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.mfadlihs.macrobenthos"
+  },
+  {
+    "id": 2,
+    "timestamp": "Nov 2023",
+    "title": "ASA",
+    "subtitle": "MAGE 9 Competition Submission",
+    "description": "ASA is a social media application specifically designed for survivors of sexual harassment to share their stories anonymously and report incidents directly to authorities. The app features an anonymous timeline, \"speak up\" function for reporting, and a chat for sharing experiences with community.",
+    "thumbnail": "/images/asa.png",
+    "skills": ["Dart", "Flutter"],
+    "link": "https://drive.google.com/drive/u/1/folders/1dcK8SCpYe3XxZA0owePR8rabV3U-OWY1",
+    "github": "https://github.com/Penyihir-Berkah-Mage-ITS"
+  },
+  {
+    "id": 3,
+    "timestamp": "Aug - Sep 2023",
+    "title": "DGScope",
+    "description": "Introducing DGScope, an innovative application facilitating remote auscultation for doctors. With a modified recording device, physicians can diagnose through medical recordings, enabling efficient and accessible healthcare.",
+    "thumbnail": "/images/dgscope.png",
+    "skills": ["Dart", "Flutter", "Firebase"],
+    "link": "https://dgscope.id/"
+  },
+  {
+    "id": 4,
+    "timestamp": "Jul 2023",
+    "title": "AquaSmart",
+    "subtitle": "Top 2 on PLAYBOX Startup Competition 2023",
+    "description": "AquaSmart is an application designed for shrimp farmers to efficiently monitor and manage the water quality of shrimp ponds. It integrates with IoT to provide real-time monitoring of pond parameters and allows remote control of aquaculture devices.",
+    "thumbnail": "/images/aquasmart.png",
+    "skills": ["Dart", "Flutter"],
+    "link": "https://drive.google.com/drive/folders/1_SczvMFacFoChDcUW59zy0hVMLpE5in8",
+    "github": "https://github.com/Playbox-Kotak-Berkah"
+  },
+  {
+    "id": 5,
+    "timestamp": "Jul 2023",
+    "title": "Aseupan",
+    "subtitle": "Top 100 Global Google Solution Challenge 2023",
+    "description": "“aseupan\" means \"meals\" in Sundanese, a mobile application that uses Flutter and Golang programming language from Google that focused on being a platform for sharing food with gamification in the form of point collection to fulfill SDGs points 2 and 3.",
+    "thumbnail": "/images/aseupan.png",
+    "skills": ["Dart", "JavaScript", "Flutter", "Node.js", "GCP"],
+    "link": "https://sites.google.com/student.ub.ac.id/aseupan",
+    "github": "https://github.com/aseupan"
+  },
+  {
+    "id": 6,
+    "timestamp": "Nov 2022 - Feb 2023",
+    "title": "Scylla DELOS",
+    "description": "Scylla is an open-source UI Components Library that is used on Delos Web App. I worked on this project during my internship at DELOS, which at that time was the first phase for making Scylla",
+    "thumbnail": "/images/scylla.png",
+    "skills": ["Dart", "JavaScript", "Flutter", "Node.js", "GCP"],
+    "link": "https://scylla.delosaqua.com/?path=/story/get-started-introduction--page"
+  }
+]

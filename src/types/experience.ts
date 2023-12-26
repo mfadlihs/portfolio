@@ -8,4 +8,5 @@ export interface ExperienceType {
   skills: string[];
   projects: { title: string; link: string }[];
   logo: string;
+  github?: string;
 }
