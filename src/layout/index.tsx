@@ -67,8 +67,8 @@ export default function Layout({ children }: { children: ReactNode }) {
     <>
       <LeftContainer className="md:fixed md:px-16 lg:px-24 xl:px-32 h-screen sm:px-24 px-8 md:h-auto flex flex-col justify-around text-text">
         <div className="flex flex-col gap-6 md:gap-3 text-center md:text-left">
-          <h1 className="md:text-3xl lg:text-4xl text-4xl font-medium">
-            Muhammad <span className="font-bold">Fadli</span> Hasan
+          <h1 className="md:text-3xl lg:text-4xl text-4xl font-semibold">
+            Muhammad Fadli Hasan
           </h1>
           <h2 className="md:text-lg lg:text-xl text-xl font-medium">
             Experienced Front-end & Mobile Engineer

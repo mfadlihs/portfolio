@@ -36,7 +36,11 @@ export default function ExperienceCard({
           active == 2 && "opacity-50"
         } px-4 md:px-6 py-4 md:py-5 rounded-xl hover:bg-[#5ECED410] cursor-pointer hover:text-text"`}
       >
-        <img src={data.logo} className="h-7 w-32 object-cover mb-2" />
+        <img
+          src={data.logo}
+          className="h-7 w-32 object-cover mb-2"
+          alt={data.company}
+        />
         <div className="flex gap-x-8 gap-y-2 flex-col md:flex-row">
           <div className="text-sm basis-[25%]">{data.timestamp}</div>
           <div className="basis-[75%]">

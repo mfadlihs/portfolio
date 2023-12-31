@@ -42,6 +42,7 @@ export default function ProjectCard({
           <div className="basis-[25%]">
             <img
               src={data.thumbnail}
+              alt={data.title}
               className="aspect-video object-cover object-center w-full block"
             />
           </div>
