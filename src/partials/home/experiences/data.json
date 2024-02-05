@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "timestamp": "Feb 2024 - Present",
+    "title": "Frontend Developer Intern",
+    "company": "Suitmedia",
+    "linkCompany": "https://suitmedia.com/",
+    "description": "MSIB Batch 6 from Kampus Merdeka at Suitmedia. As a Front End Developer Intern, I immersed myself in crafting innovative user interfaces for application-based projects using the Nuxt.js technology stack",
+    "skills": ["JavaScript", "Nuxt.js"],
+    "projects": [],
+    "logo": "/icons/suitmedia.png"
+  },
+  {
+    "id": 1,
     "timestamp": "Aug 2022 - Feb 2023",
     "title": "Software Engineer Intern",
     "company": "DELOS",
