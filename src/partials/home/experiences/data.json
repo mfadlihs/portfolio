@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "timestamp": "Feb 2024 - Present",
+    "timestamp": "Feb - Jun 2024",
     "title": "Frontend Developer Intern",
     "company": "Suitmedia",
     "linkCompany": "https://suitmedia.com/",
     "description": "MSIB Batch 6 from Kampus Merdeka at Suitmedia. As a Front End Developer Intern, I immersed myself in crafting innovative user interfaces for application-based projects using the Nuxt.js technology stack",
-    "skills": ["JavaScript", "Nuxt.js"],
+    "skills": ["JavaScript", "Vue.js", "Nuxt.js", "Tailwind CSS"],
     "projects": [],
     "logo": "/icons/suitmedia.png"
   },
