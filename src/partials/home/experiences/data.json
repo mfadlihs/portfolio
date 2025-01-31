@@ -7,7 +7,10 @@
     "linkCompany": "https://suitmedia.com/",
     "description": "MSIB Batch 6 from Kampus Merdeka at Suitmedia. As a Front End Developer Intern, I immersed myself in crafting innovative user interfaces for application-based projects using the Nuxt.js technology stack",
     "skills": ["JavaScript", "Vue.js", "Nuxt.js", "Tailwind CSS"],
-    "projects": [],
+    "projects": [
+      { "title": "IMDE", "link": "https://emtekedu.ac.id/id" },
+      { "title": "Asacita", "link": "https://www.asacita.org/" }
+    ],
     "logo": "/icons/suitmedia.png"
   },
   {
@@ -32,7 +35,12 @@
     "linkCompany": "https://www.linkedin.com/company/myeco-indonesia/",
     "description": "With a strong sense of responsibility, I spearheaded the development of the iOS version of the MyEco application using Flutter and Firebase. I contributed over 10,000 lines of code and successfully delivered the project within a demanding three-month deadline.",
     "skills": ["Dart", "Flutter", "Firebase"],
-    "projects": [],
+    "projects": [
+      {
+        "title": "MyECO",
+        "link": "https://play.google.com/store/apps/details?id=id.myeco.myeco&hl=en"
+      }
+    ],
     "logo": "/icons/myeco.png"
   }
 ]
