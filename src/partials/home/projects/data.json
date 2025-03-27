@@ -1,6 +1,41 @@
 [
   {
-    "id": 1,
+    "id": 9,
+    "timestamp": "Mar 2025",
+    "title": "Kawan Tenant",
+    "description": "KAWANTENANT is a transformative initiative within Livin’ Merchant, designed to empower MSMEs by seamlessly integrating them into indonesia’s thriving festival ecosystem. With seamless onboarding and innovative digital solutions, we open new doors for businesses to thrive in the heart of Indonesia’s most vibrant events.",
+    "thumbnail": "/images/kawan_tenant.png",
+    "skills": ["Flutter", "Laravel", "Dart", "Docker", "PHP"],
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "timestamp": "Jul - Sep 2024",
+    "title": "Satpol Saja",
+    "description": "Satpol Saja: Simplifying Task Management and Report Administration for Satpol PP Batu City",
+    "thumbnail": "/images/eport.jpeg",
+    "skills": ["Dart", "Flutter", "Firebase", "Docker", "Cloud"],
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "timestamp": "Jan - Mar 2024",
+    "title": "Smart Estrus",
+    "description": "“Smart Estrus is an innovative application specifically designed to help farmers monitor and record the estrus or heat cycle of their livestock easily and efficiently. With an intuitive interface and advanced features, this application allows users to systematically record livestock reproduction and accurate.",
+    "thumbnail": "/images/smart_estrus.png",
+    "skills": [
+      "Dart",
+      "Flutter",
+      "Golang",
+      "Docker",
+      "PostgreSQL",
+      "Cloud Platform"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.mfadlihs.smartestrus&hl=en"
+  },
+
+  {
+    "id": 6,
     "timestamp": "Sep - Nov 2023",
     "title": "BEMAVERT",
     "description": "BEMAVERT (Benthic Macroinvertebrate Tracker) is the latest innovation to make it easier to analyze  pollution levels using the macrobenthos",
@@ -18,7 +53,7 @@
     "link": "https://play.google.com/store/apps/details?id=com.mfadlihs.macrobenthos"
   },
   {
-    "id": 2,
+    "id": 5,
     "timestamp": "Nov 2023",
     "title": "ASA",
     "subtitle": "MAGE 9 Competition Submission",
@@ -29,7 +64,7 @@
     "github": "https://github.com/Penyihir-Berkah-Mage-ITS"
   },
   {
-    "id": 3,
+    "id": 4,
     "timestamp": "Aug - Sep 2023",
     "title": "DGScope",
     "description": "Introducing DGScope, an innovative application facilitating remote auscultation for doctors. With a modified recording device, physicians can diagnose through medical recordings, enabling efficient and accessible healthcare.",
@@ -38,7 +73,7 @@
     "link": "https://dgscope.id/"
   },
   {
-    "id": 4,
+    "id": 3,
     "timestamp": "Jul 2023",
     "title": "AquaSmart",
     "subtitle": "Top 2 on PLAYBOX Startup Competition 2023",
@@ -49,7 +84,7 @@
     "github": "https://github.com/Playbox-Kotak-Berkah"
   },
   {
-    "id": 5,
+    "id": 2,
     "timestamp": "Jul 2023",
     "title": "Aseupan",
     "subtitle": "Top 100 Global Google Solution Challenge 2023",
@@ -60,7 +95,7 @@
     "github": "https://github.com/aseupan"
   },
   {
-    "id": 6,
+    "id": 1,
     "timestamp": "Nov 2022 - Feb 2023",
     "title": "Scylla DELOS",
     "description": "Scylla is an open-source UI Components Library that is used on Delos Web App. I worked on this project during my internship at DELOS, which at that time was the first phase for making Scylla",
